@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.0-alpine AS builder
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS builder
 
 # INSTALL PRE REQS
 RUN dotnet tool install -g Cake.Tool \
